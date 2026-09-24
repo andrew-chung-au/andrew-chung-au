@@ -2,7 +2,7 @@
 
 Cloud, AI and data engineer based in Melbourne, Australia. I build retrieval-augmented generation (RAG) systems, data pipelines and AWS infrastructure using Python and PostgreSQL, with a focus on measuring how well they work. Open to AI, cloud and data engineering roles in Melbourne (on-site, hybrid or remote).
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-andrew--chung--au.github.io-1F5FBF?style=flat-square)](https://andrew-chung-au.github.io)
+<!--[![Portfolio](https://img.shields.io/badge/Portfolio-andrew--chung--au.github.io-1F5FBF?style=flat-square)](https://andrew-chung-au.github.io)-->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-andrewchung--cloudai-14213A?style=flat-square)](https://www.linkedin.com/in/andrewchung-cloudai/)
 
 ## How I work
@@ -16,9 +16,9 @@ Cloud, AI and data engineer based in Melbourne, Australia. I build retrieval-aug
 | Project | What it does | How it was evaluated | Status |
 |---|---|---|---|
 | [DER RegCheck](https://github.com/andrew-chung-au/REPLACE-der-regcheck) | RAG assistant for energy-regulation research. Answers carry citations and are rejected if a citation can't be verified. | 100-query benchmark, 5 retrieval methods compared, LLM-as-a-judge plus blinded human review | Evaluated; trialled on AWS EC2 |
-| [AUS AI Security Navigator](https://github.com/andrew-chung-au/REPLACE-aus-ai-security-navigator) | Audience-aware RAG over Australian Cyber Security Centre AI-security guidance, filtered by organisation size and role | 27-question benchmark, 4 retrieval methods compared, latency and cost monitoring | Evaluated |
-| [Cyber Threat Identifier](https://github.com/andrew-chung-au/REPLACE-cyber-threat-identifier) | Maps incident narratives to likely MITRE ATT&CK techniques with two-stage retrieval | 226 expert-derived cases, pairwise LLM-as-a-judge plus blinded human review | Evaluated |
-| [Amadeus MCP Server](https://github.com/andrew-chung-au/REPLACE-amadeus-mcp-server) | Extension of an open-source MCP server with a fallback engine for API failure, on Terraform-provisioned AWS | Deploy, evaluate and tear down on demand; localhost behind an SSH tunnel; Secrets Manager and least-privilege IAM | Proof of concept |
+| [AUS AI Security Navigator](https://github.com/andrew-chung-au/REPLACE-aus-ai-security-navigator) | Audience-aware RAG over Australian Cyber Security Centre AI-security guidance, filtered by organisation size and role | 27-question benchmark, 4 retrieval methods compared, latency and cost monitoring | Evaluated; trialled on AWS EC2 |
+| [Cyber Threat Identifier](https://github.com/andrew-chung-au/REPLACE-cyber-threat-identifier) | Maps incident narratives to likely MITRE ATT&CK techniques with two-stage retrieval | 226 expert-derived cases, pairwise LLM-as-a-judge plus blinded human review | Evaluated; trialled on AWS EC2 |
+| [Amadeus MCP Server](https://github.com/andrew-chung-au/REPLACE-amadeus-mcp-server) | Extension of an open-source MCP server with a fallback engine for API failure, on Terraform-provisioned AWS | Deploy, evaluate and tear down on demand; localhost behind an SSH tunnel; Secrets Manager and least-privilege IAM | AWS (Terraform) |
 | [Table Ready](https://github.com/andrew-chung-au/REPLACE-table-ready) | Restaurant waitlist app (FastAPI, PostgreSQL, Docker) built with Claude Code from my spec and under my review | API, integration and browser tests; containerised migrations | Not yet deployed |
 
 ## Tech I work with
