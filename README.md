@@ -1,6 +1,12 @@
-# Hi, I'm Andrew Chung
+# Andrew Chung
 
-Cloud, AI and data engineer based in Melbourne, Australia. I build retrieval-augmented generation (RAG) systems, data pipelines and AWS infrastructure using Python and PostgreSQL, with a focus on measuring how well they work. Open to AI, cloud and data engineering roles in Melbourne (on-site, hybrid or remote).
+I spent over a decade in higher education in Hong Kong, delivering technical projects at the Hong Kong University of Science and Technology and teaching at City University of Hong Kong. Seeing how quickly AI was developing, I decided to move into the field and build with it myself.
+
+My technical foundation is in cyber security, through a Certificate IV that included a penetration test and a red, blue and purple team exercise. That led into cloud, which I took further by earning the AWS Certified Solutions Architect – Associate.
+
+Alongside that, and since, I've been building AI and data projects. Most are retrieval-augmented generation (RAG) systems in Python, PostgreSQL and AWS, each benchmarked and with its limits documented, and two apply RAG to security work: navigating Australian AI-security guidance and mapping incidents to MITRE ATT&CK techniques. I also finished 2nd of 2,000+ learners in the LLM Zoomcamp.
+
+I'm based in Melbourne, Australia, and open to AI, cloud, data engineering and security roles (on-site, hybrid or remote).
 
 <!--[![Portfolio](https://img.shields.io/badge/Portfolio-andrew--chung--au.github.io-1F5FBF?style=flat-square)](https://andrew-chung-au.github.io)-->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-andrewchung--cloudai-14213A?style=flat-square)](https://www.linkedin.com/in/andrewchung-cloudai/)
