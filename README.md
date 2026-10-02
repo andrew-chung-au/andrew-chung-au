@@ -8,7 +8,7 @@ My technical foundation is in cyber security, through a Certificate IV that incl
 
 Alongside that, and since, I've been building AI and data projects. Most are retrieval-augmented generation (RAG) systems in Python, PostgreSQL and AWS, each benchmarked and with its limits documented, and two apply RAG to security work: navigating Australian AI-security guidance and mapping incidents to MITRE ATT&CK techniques. I also finished 2nd of 2,000+ learners in the LLM Zoomcamp.
 
-I'm based in Melbourne, Australia, and open to AI Engineer and cyber security (threat analysis) roles, on-site, hybrid or remote.
+I'm based in Melbourne, Australia, and open to AI Engineer and cyber security roles, on-site, hybrid or remote.
 
 [LinkedIn](https://www.linkedin.com/in/andrewchung-cloudai/)
 
