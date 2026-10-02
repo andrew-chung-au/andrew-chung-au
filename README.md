@@ -1,15 +1,16 @@
 # Andrew Chung
 
+**AI Engineer building evaluated, evidence-first RAG and agent systems for security-minded and regulated organisations.**
+
 I spent over a decade in higher education in Hong Kong, delivering technical projects at the Hong Kong University of Science and Technology and teaching at City University of Hong Kong. Seeing how quickly AI was developing, I decided to move into the field and build with it myself.
 
 My technical foundation is in cyber security, through a Certificate IV that included a penetration test and a red, blue and purple team exercise. That led into cloud, which I took further by earning the AWS Certified Solutions Architect – Associate.
 
 Alongside that, and since, I've been building AI and data projects. Most are retrieval-augmented generation (RAG) systems in Python, PostgreSQL and AWS, each benchmarked and with its limits documented, and two apply RAG to security work: navigating Australian AI-security guidance and mapping incidents to MITRE ATT&CK techniques. I also finished 2nd of 2,000+ learners in the LLM Zoomcamp.
 
-I'm based in Melbourne, Australia, and open to AI, cloud, data engineering and security roles (on-site, hybrid or remote).
+I'm based in Melbourne, Australia, and open to AI Engineer and cyber security (threat analysis) roles, on-site, hybrid or remote.
 
-<!--[![Portfolio](https://img.shields.io/badge/Portfolio-andrew--chung--au.github.io-1F5FBF?style=flat-square)](https://andrew-chung-au.github.io)-->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-andrewchung--cloudai-14213A?style=flat-square)](https://www.linkedin.com/in/andrewchung-cloudai/)
+[LinkedIn](https://www.linkedin.com/in/andrewchung-cloudai/)
 
 ## How I work
 
@@ -19,38 +20,27 @@ I'm based in Melbourne, Australia, and open to AI, cloud, data engineering and s
 
 ## Featured projects
 
-| Project | What it does | How it was evaluated | Status |
-|---|---|---|---|
-| [DER RegCheck](https://github.com/andrew-chung-au/REPLACE-der-regcheck) | RAG assistant for energy-regulation research. Answers carry citations and are rejected if a citation can't be verified. | 100-query benchmark, 5 retrieval methods compared, LLM-as-a-judge plus blinded human review | Evaluated; trialled on AWS EC2 |
-| [AUS AI Security Navigator](https://github.com/andrew-chung-au/REPLACE-aus-ai-security-navigator) | Audience-aware RAG over Australian Cyber Security Centre AI-security guidance, filtered by organisation size and role | 27-question benchmark, 4 retrieval methods compared, latency and cost monitoring | Evaluated; trialled on AWS EC2 |
-| [Cyber Threat Identifier](https://github.com/andrew-chung-au/REPLACE-cyber-threat-identifier) | Maps incident narratives to likely MITRE ATT&CK techniques with two-stage retrieval | 226 expert-derived cases, pairwise LLM-as-a-judge plus blinded human review | Evaluated; trialled on AWS EC2 |
-| [Amadeus MCP Server](https://github.com/andrew-chung-au/REPLACE-amadeus-mcp-server) | Extension of an open-source MCP server with a fallback engine for API failure, on Terraform-provisioned AWS | Deploy, evaluate and tear down on demand; localhost behind an SSH tunnel; Secrets Manager and least-privilege IAM | AWS (Terraform) |
-| [Table Ready](https://github.com/andrew-chung-au/REPLACE-table-ready) | Restaurant waitlist app (FastAPI, PostgreSQL, Docker) built with Claude Code from my spec and under my review | API, integration and browser tests; containerised migrations | Not yet deployed |
+| Project | What it does | How it was evaluated | Key result | Status |
+|---|---|---|---|---|
+| DER RegCheck | RAG assistant for energy-regulation research. Answers carry citations and are rejected if a citation can't be verified. | 100-query benchmark, 5 retrieval methods compared, LLM-as-a-judge plus blinded human review | Full RAG preferred in 9 of 10 blinded comparisons against the same prompt without evidence | Evaluated; trialled on AWS EC2 |
+| Cyber Threat Identifier | Maps incident narratives to likely MITRE ATT&CK techniques with two-stage retrieval | 226 expert-derived cases, pairwise LLM-as-a-judge plus blinded human review | Reranking lifted top-3 hit rate from 35% to 42% over vector search | Evaluated; trialled on AWS EC2 |
+| AUS AI Security Navigator | Audience-aware RAG over Australian Cyber Security Centre AI-security guidance, filtered by organisation size and role | 27-question benchmark, 4 retrieval methods compared, latency and cost monitoring | Reranking raised exact-passage MRR from 0.75 to 0.89 | Evaluated; trialled on AWS EC2 |
+| Amadeus MCP Server | Extension of an open-source MCP server with a fallback engine for API failure, on Terraform-provisioned AWS | Not benchmarked; a deployment and security exercise | On-demand deploy and teardown, localhost behind an SSH tunnel, Secrets Manager and least-privilege IAM | AWS (Terraform) |
+| Table Ready | Restaurant waitlist app (FastAPI, PostgreSQL, Docker) built with Claude Code from my spec and under my review | API, integration and browser tests; containerised migrations | Test gate blocks agents from finishing while tests fail | Not yet deployed |
 
 ## Tech I work with
 
-![Python](https://img.shields.io/badge/Python-1F5FBF?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-1F5FBF?style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1F5FBF?style=flat-square&logo=postgresql&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-1F5FBF?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-0B7471?style=flat-square)
-![LLM evaluation](https://img.shields.io/badge/LLM--as--a--judge-0B7471?style=flat-square)
-![AWS](https://img.shields.io/badge/AWS-14213A?style=flat-square)
-![Terraform](https://img.shields.io/badge/Terraform-14213A?style=flat-square&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-14213A?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-14213A?style=flat-square&logo=linux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-4E5B72?style=flat-square&logo=git&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-4E5B72?style=flat-square&logo=streamlit&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-4E5B72?style=flat-square&logo=anthropic&logoColor=white)
+Python · SQL · PostgreSQL · pgvector · RAG · LLM evaluation · Agents and MCP · FastAPI · AWS · Terraform · Docker · Linux · Git · Streamlit · Claude Code
 
 ## Credentials
 
 - AWS Certified Solutions Architect – Associate
 - LLM Zoomcamp 2026 (DataTalksClub): 2nd of 2,000+ enrolled learners
+- AI Engineer for Developers Associate (DataCamp)
 - Certificate IV in Cyber Security (Holmesglen)
 - Python Developer Certification (freeCodeCamp)
 - Microsoft Azure AI Fundamentals
 
 ## Get in touch
 
-Message me on [LinkedIn](https://www.linkedin.com/in/andrewchung-cloudai/)<!-- or through the contact form on my [portfolio](https://andrew-chung-au.github.io/#contact)-->.
+Message me on [LinkedIn](https://www.linkedin.com/in/andrewchung-cloudai/).
