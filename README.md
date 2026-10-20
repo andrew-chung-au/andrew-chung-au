@@ -37,7 +37,7 @@ Python · SQL · PostgreSQL · pgvector · RAG · LLM evaluation · Agents and M
 - [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/94859bee-e2be-4f45-b8a7-868052ad1d19/public_url)
 - [LLM Zoomcamp 2026 (DataTalksClub): 2nd of 2,000+ enrolled learners](https://courses.datatalks.club/llm-zoomcamp-2026/leaderboard)
 - [AI Engineer for Developers Associate (DataCamp)](https://www.datacamp.com/certificate/AIEDA0015091137254)
-- [Certificate IV in Cyber Security (Holmesglen)][https://www.myequals.net/sharelink/0a74a86c-42c0-4a02-a1b8-bedd025fee74/f7aeb7e6-8236-4dfb-a247-874f8250542e]
+- [Certificate IV in Cyber Security (Holmesglen)](https://www.myequals.net/sharelink/0a74a86c-42c0-4a02-a1b8-bedd025fee74/f7aeb7e6-8236-4dfb-a247-874f8250542e)
 - [Python Developer Certification (freeCodeCamp)](https://www.freecodecamp.org/certification/andrewchungau/python-v9)
 - [Microsoft Azure AI Fundamentals](https://learn.microsoft.com/api/credentials/share/en-us/andrew-chung-au/9B89C933F67D1CB?sharingId=D71CED5C86591D75)
 
