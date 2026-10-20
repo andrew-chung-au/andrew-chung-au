@@ -22,11 +22,11 @@ I'm based in Melbourne, Australia, and open to AI Engineer and cyber security ro
 
 | Project | What it does | How it was evaluated | Key result | Status |
 |---|---|---|---|---|
-| DER RegCheck | RAG assistant for energy-regulation research. Answers carry citations and are rejected if a citation can't be verified. | 100-query benchmark, 5 retrieval methods compared, LLM-as-a-judge plus blinded human review | Full RAG preferred in 9 of 10 blinded comparisons against the same prompt without evidence | Evaluated; trialled on AWS EC2 |
-| Cyber Threat Identifier | Maps incident narratives to likely MITRE ATT&CK techniques with two-stage retrieval | 226 expert-derived cases, pairwise LLM-as-a-judge plus blinded human review | Reranking lifted top-3 hit rate from 35% to 42% over vector search | Evaluated; trialled on AWS EC2 |
-| AUS AI Security Navigator | Audience-aware RAG over Australian Cyber Security Centre AI-security guidance, filtered by organisation size and role | 27-question benchmark, 4 retrieval methods compared, latency and cost monitoring | Reranking raised exact-passage MRR from 0.75 to 0.89 | Evaluated; trialled on AWS EC2 |
-| Amadeus MCP Server | Extension of an open-source MCP server with a fallback engine for API failure, on Terraform-provisioned AWS | Not benchmarked; a deployment and security exercise | On-demand deploy and teardown, localhost behind an SSH tunnel, Secrets Manager and least-privilege IAM | AWS (Terraform) |
-| Table Ready | Restaurant waitlist app (FastAPI, PostgreSQL, Docker) built with Claude Code from my spec and under my review | API, integration and browser tests; containerised migrations | Test gate blocks agents from finishing while tests fail | Not yet deployed |
+| [DER RegCheck](https://github.com/andrew-chung-au/der-regcheck) | RAG assistant for energy-regulation research. Answers carry citations and are rejected if a citation can't be verified. | 100-query benchmark, 5 retrieval methods compared, LLM-as-a-judge plus blinded human review | Full RAG preferred in 9 of 10 blinded comparisons against the same prompt without evidence | Evaluated; trialled on AWS EC2 |
+| [Cyber Threat Identifier](https://github.com/andrew-chung-au/cyber-threat-identifier) | Maps incident narratives to likely MITRE ATT&CK techniques with two-stage retrieval | 226 expert-derived cases, pairwise LLM-as-a-judge plus blinded human review | Reranking lifted top-3 hit rate from 35% to 42% over vector search | Evaluated; trialled on AWS EC2 |
+| [AUS AI Security Navigator](https://github.com/andrew-chung-au/aus-ai-security-navigator) | Audience-aware RAG over Australian Cyber Security Centre AI-security guidance, filtered by organisation size and role | 27-question benchmark, 4 retrieval methods compared, latency and cost monitoring | Reranking raised exact-passage MRR from 0.75 to 0.89 | Evaluated; trialled on AWS EC2 |
+| [Amadeus MCP Server](https://github.com/andrew-chung-au/TravelWiseAI-Amadeus-MCP) | Extension of an open-source MCP server with a fallback engine for API failure, on Terraform-provisioned AWS | Not benchmarked; a deployment and security exercise | On-demand deploy and teardown, localhost behind an SSH tunnel, Secrets Manager and least-privilege IAM | AWS (Terraform) |
+| [Table Ready](https://github.com/andrew-chung-au/table-ready) | Restaurant waitlist app (FastAPI, PostgreSQL, Docker) built with Claude Code from my spec and under my review | API, integration and browser tests; containerised migrations | Test gate blocks agents from finishing while tests fail | Not yet deployed |
 
 ## Tech I work with
 
@@ -34,12 +34,12 @@ Python · SQL · PostgreSQL · pgvector · RAG · LLM evaluation · Agents and M
 
 ## Credentials
 
-- AWS Certified Solutions Architect – Associate
-- LLM Zoomcamp 2026 (DataTalksClub): 2nd of 2,000+ enrolled learners
-- AI Engineer for Developers Associate (DataCamp)
-- Certificate IV in Cyber Security (Holmesglen)
-- Python Developer Certification (freeCodeCamp)
-- Microsoft Azure AI Fundamentals
+- [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/94859bee-e2be-4f45-b8a7-868052ad1d19/public_url)
+- [LLM Zoomcamp 2026 (DataTalksClub): 2nd of 2,000+ enrolled learners](https://courses.datatalks.club/llm-zoomcamp-2026/leaderboard)
+- [AI Engineer for Developers Associate (DataCamp)](https://www.datacamp.com/certificate/AIEDA0015091137254)
+- [Certificate IV in Cyber Security (Holmesglen)][https://www.myequals.net/sharelink/0a74a86c-42c0-4a02-a1b8-bedd025fee74/f7aeb7e6-8236-4dfb-a247-874f8250542e]
+- [Python Developer Certification (freeCodeCamp)](https://www.freecodecamp.org/certification/andrewchungau/python-v9)
+- [Microsoft Azure AI Fundamentals](https://learn.microsoft.com/api/credentials/share/en-us/andrew-chung-au/9B89C933F67D1CB?sharingId=D71CED5C86591D75)
 
 ## Get in touch
 
